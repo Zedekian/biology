@@ -1,0 +1,11 @@
+1.
+(1)Total score:  -140916
+(2)Match :  67171
+(3)Mismatch :  45953
+(4)Gap :  38727
+
+2.
+(1)OS : Linux-Ubuntu
+(2)CPU : i5-4560
+(3)RAM : 32Gb
+(4)Run time : 0.909588(sec)

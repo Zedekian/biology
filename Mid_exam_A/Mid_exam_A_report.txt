@@ -1,0 +1,11 @@
+1.Not used String : 24074
+
+2.
+(1)OS : Linux-Ubuntu
+(2)CPU : i5-4560
+(3)RAM : 32Gb
+(4)Run time : 239.615490(sec)
+
+3.The final string lenght :  129638
+
+

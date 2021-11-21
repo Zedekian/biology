@@ -1,0 +1,13 @@
+1.
+(1)Total score :  29784
+(2)Match  29856
+(3)Mismatch :  18
+(4)Gap :  12
+
+2.
+(1)OS : Linux-Ubuntu
+(2)CPU : i5-4560
+(3)RAM : 32Gb
+(4)Run time : 0.909588(sec)
+
+註：因檔案大小過於龐大，全部都進行計算時會有錯誤，因此我採取Random的方式採樣並倆倆合併，從中抓取分數最高的組合。
