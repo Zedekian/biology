@@ -29,6 +29,7 @@ class db:
         for i in range(2, len(open(DNA, 'rU').readlines())):
             temp = linecache.getline(DNA, i).strip()
             ans += temp
+        ans = ans.upper()
         return db.DNA_to_RNA(ans)
 
     def DNA_to_RNA(length):
@@ -105,12 +106,12 @@ class db:
         letter_2 = []
         for i in range(0, len(word)):
             if word[i] == 'M':
-                count = i
+                count = i + 1
                 for j in range(i, len(word)):
                     temp += word[j]
                     if word[j] == 'X':
                         letter_1.append(temp)
-                        db.ans_dic[len(temp)] = (count * 3, j * 3)  #Serial number in dic
+                        db.ans_dic[len(temp)] = (count * 3, (j + 1) * 3)  #Serial number in dic
                         temp = ""
                         count = 0
                         i = j
