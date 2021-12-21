@@ -83,20 +83,7 @@ class db:
 
         return word[0]
 
-    def single_linkage(list, word):
-        
-        while len(word) > 1:
-            
-            temp_1, temp_2 = db.Find_the_smallest(list)
-
-            db.add_target(list, temp_1, temp_2)
-
-            db.add_words(word, temp_1, temp_2)
-
-        return word[0]
-
 node_words = db.word_length("A","G")
 print("Complete linkage : ",db.complete_linkage(db.target, node_words))
-print("Single linkage : ",db.single_linkage(db.target, node_words))
 end = time.time()
 print("Time used : %f(sec)" % (end - start))
